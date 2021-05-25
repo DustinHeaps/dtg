@@ -1,0 +1,154 @@
+header {
+  height: 64px;
+  background-color: #fff;
+  color: #654b92;
+  font-size: 48px;
+}
+
+.hero {
+  background-image: url(../../../assets/hero.jpg);
+  height: 500px;
+  display: flex;
+  align-items: center;
+  padding-left: 35px;
+
+  .message {
+    background-color: rgba(#654b92, 0.9);
+    height: 80%;
+    width: 25%;
+    padding: 20px;
+    color: white;
+    font-family: futuraBQ;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.4;
+    span {
+      text-transform: uppercase;
+      font-size: 54px;
+      font-weight: 800;
+      line-height: 1;
+      letter-spacing: 3px;
+    }
+  }
+}
+
+.services-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+  h2 {
+    color: #654b92;
+    font-size: 35px;
+  }
+
+  .services {
+    width: 30%;
+    -webkit-box-shadow: 5px 5px 8px 5px rgba(38, 38, 38, 0.32);
+    box-shadow: 5px 5px 8px 5px rgba(38, 38, 38, 0.32);
+    font-family: futuraBQ;
+    .top-wrapper {
+      display: flex;
+      height: 100px;
+      margin-top: 50px;
+      text-transform: capitalize;
+      justify-content: center;
+      align-items: center;
+      
+
+
+      img {
+        margin-right: 20px;
+        width: 125px;
+      }
+    }
+
+    p {
+      padding: 0 20px;
+      line-height: 1.5;
+    }
+  }
+}
+
+.case-study-wrapper {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  .case-study {
+    width: 30%;
+    font-family: futuraBQ;
+    -webkit-box-shadow: 5px 5px 8px 5px rgba(38, 38, 38, 0.32);
+    box-shadow: 5px 5px 8px 5px rgba(38, 38, 38, 0.32);
+
+    .info-wrapper {
+      padding: 5px 15px 15px;
+      line-height: 1.5;
+      position: relative;
+      button {
+        position: absolute;
+        left: 70%;
+      }
+    }
+    img {
+      width: 100%;
+    }
+    span {
+      color: #f10510;
+      font-size: 32px;
+      font-weight: 600;
+    }
+  }
+}
+.btn {
+  color: white;
+
+  background: #f10510;
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+  font-family: futuraBQ;
+}
+.divider {
+  font-family: futuraBQ;
+  letter-spacing: 3px;
+  background: #f10510;
+  margin: 0px 36px;
+  color: white;
+  font-size: 32px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 50px;
+  color: #fff;
+  background-color: #654b92;
+  height: 100px;
+  font-family: futuraBQ;
+  padding-top: 10px;
+  .top-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    font-size: 40px;
+    font-weight: 600;
+
+    button {
+      margin-left: 20px;
+    } 
+  }
+
+  .bottom-wrapper {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 24px;
+    .fa {
+      padding-right: 3px;
+    }
+
+    .fa-envelope {
+      margin-left: 50px;
+    }
+  }
+}
